@@ -1,3 +1,14 @@
+#Project for a Python self study class from 2015
+#This is an early version, I lost access to the final version
+#This version contains the ability to change a locally stored password
+#the GUI set up using tkinter, and a broken script for creating a vote and 
+#adding positions, because this version was in the middle of switching over to
+#a sqlite database, and these functions weren't yet updated to pull those values
+
+#The final version stored all variables and values that could change on the
+#sqlite database, and had a working createVote, addPosition, endVote function
+#pulling those values from the database as needed
+
 import tkinter
 from tkinter import *
 import sqlite3
